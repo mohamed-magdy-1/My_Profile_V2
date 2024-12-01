@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "background_imgs",
+  "info": {
+    "singularName": "background-img",
+    "pluralName": "background-imgs",
+    "displayName": "background_Img"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundImg": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "object_fit": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

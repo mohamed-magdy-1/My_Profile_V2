@@ -1,0 +1,34 @@
+:root {
+  --background: #ffffff;
+  --foreground: #0d0d0d;
+  --min-color:#007bff;
+  --minor-color:#007bff47;
+  --font-orbitron: 'Orbitron', sans-serif;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--background);
+  background: var(--foreground);
+  font-family:  var(--font-orbitron) ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
